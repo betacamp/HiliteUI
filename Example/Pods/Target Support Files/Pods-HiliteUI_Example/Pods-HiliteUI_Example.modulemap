@@ -1,0 +1,6 @@
+framework module Pods_HiliteUI_Example {
+  umbrella header "Pods-HiliteUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
