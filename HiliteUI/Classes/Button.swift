@@ -20,17 +20,17 @@ open class Button: UIButton, ShowsAsLoading {
         return button
     }
 
-    open init() {
+    public init() {
         super.init(frame: CGRect.zero)
         self.configure()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.configure()
     }
     
-    override open init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.configure()
     }

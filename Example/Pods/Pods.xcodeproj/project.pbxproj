@@ -39,6 +39,8 @@
 		1AFD236C1E217CDF0040B659 /* ShowsAsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23581E217CBB0040B659 /* ShowsAsLoading.swift */; };
 		1AFD236E1E217F510040B659 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD236D1E217F510040B659 /* AssetManager.swift */; };
 		1AFD23701E21B4AC0040B659 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD236F1E21B4AC0040B659 /* Button.swift */; };
+		1AFD23721E21B7200040B659 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23711E21B7200040B659 /* UIView+Util.swift */; };
+		1AFD23741E21B78E0040B659 /* ViewMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23731E21B78E0040B659 /* ViewMacros.swift */; };
 		232A44C5F6145555918520FA61E75E61 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA570EBAAA31239A6305CFD1BA04587C /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		24B2AFC31898725750519372CFB2350A /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F3696EC637DC2B4E0D9042A916287FDF /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29CB1841D467CCBA6A2A15F55AF9C065 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B3330E9A86A20013F3ABF42BC342A2 /* QuickSelectedTestSuiteBuilder.swift */; };
@@ -257,6 +259,8 @@
 		1AFD23621E217CDB0040B659 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AFD236D1E217F510040B659 /* AssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
 		1AFD236F1E21B4AC0040B659 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		1AFD23711E21B7200040B659 /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		1AFD23731E21B78E0040B659 /* ViewMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMacros.swift; sourceTree = "<group>"; };
 		1D5AB00D217C687CB83AE825D8B15F32 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		1E91D3D71D09F9D765DA1760C4501113 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		1F48368B8248E6DE7D078A59E62077BD /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
@@ -711,6 +715,8 @@
 		BD18EE8EEB0778C0B42184A9ACA70545 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD23731E21B78E0040B659 /* ViewMacros.swift */,
+				1AFD23711E21B7200040B659 /* UIView+Util.swift */,
 				1AFD236F1E21B4AC0040B659 /* Button.swift */,
 				1AFD235A1E217CDB0040B659 /* BaseViewController.swift */,
 				1AFD235B1E217CDB0040B659 /* HLNavigationController.swift */,
@@ -1279,9 +1285,11 @@
 				1AFD23641E217CDB0040B659 /* HLNavigationController.swift in Sources */,
 				1AFD23671E217CDB0040B659 /* PortraitTabBarController.swift in Sources */,
 				1AFD23561E217C990040B659 /* HLColor.swift in Sources */,
+				1AFD23741E21B78E0040B659 /* ViewMacros.swift in Sources */,
 				1AFD23661E217CDB0040B659 /* PortraitNavigationController.swift in Sources */,
 				1AFD23681E217CDB0040B659 /* PortraitViewController.swift in Sources */,
 				1AFD23631E217CDB0040B659 /* BaseViewController.swift in Sources */,
+				1AFD23721E21B7200040B659 /* UIView+Util.swift in Sources */,
 				1AFD23701E21B4AC0040B659 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
