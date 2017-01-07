@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiliteUI'
-  s.version          = '0.1.0-alpha'
+  s.version          = '0.2.0-alpha'
   s.summary          = 'HiliteSDK UI module.'
 
 # This description is used to generate tags and improve search results.
