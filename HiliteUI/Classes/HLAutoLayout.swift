@@ -13,7 +13,7 @@ extension UIView {
         }
     }
     
-    func attachToBoundsOfView(_ view: UIView!) -> UIView! {
+    public func attachToBoundsOfView(_ view: UIView!) -> UIView! {
         addToConstraints(constraintForTopOfView(self, attachedToTopOfView:view, offset: 0))
         addToConstraints(constraintForRightOfView(self, attachedToRightOfView:view, offset: 0))
         addToConstraints(constraintForBottomOfView(self, attachedToBottomOfView:view, offset: 0))
@@ -21,101 +21,101 @@ extension UIView {
         return self;
     }
 
-    func attachRightToCenterXOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachRightToCenterXOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForRightOfView(self, attachToCenterXOfView:view, offset: offset))
         return self
     }
     
-    func attachLeftToCenterXOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachLeftToCenterXOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForLeftOfView(self, attachToCenterXOfView:view, offset: offset))
         return self
     }
     
-    func attachBottomToCenterYOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachBottomToCenterYOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForBottomOfView(self, attachedToCenterYOfView: view, offset: offset))
         return self
     }
     
-    func attachCenterYToCenterYOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachCenterYToCenterYOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForCenterYOfView(self, attachedToCenterYOfView: view, offset: offset))
         return self
     }
     
-    func attachTopToTopOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachTopToTopOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForTopOfView(self, attachedToTopOfView:view, offset: offset));
         return self
     }
     
-    func attachTopToBottomOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachTopToBottomOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForTopOfView(self, attachedToBottomOfView:view, offset: offset));
         return self;
     }
     
-    func attachRightToRightOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachRightToRightOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForRightOfView(self, attachedToRightOfView:view, offset: offset));
         return self;
     }
     
-    func attachRightToLeftOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachRightToLeftOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForRightOfView(self, attachedToLeftOfView:view, offset: offset));
         return self;
     }
     
-    func attachBottomToBottomOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachBottomToBottomOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForBottomOfView(self, attachedToBottomOfView:view, offset: offset));
         return self;
     }
     
-    func attachBottomToTopOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachBottomToTopOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForBottomOfView(self, attachedToTopOfView: view, offset: offset))
         return self;
     }
     
-    func attachLeftToLeftOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachLeftToLeftOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForLeftOfView(self, attachedToLeftOfView:view, offset: offset));
         return self;
     }
     
-    func attachLeftToLeftOfView(_ view: UIView!, multiplier: CGFloat) -> UIView! {
+    public func attachLeftToLeftOfView(_ view: UIView!, multiplier: CGFloat) -> UIView! {
         addToConstraints(constraintForLeftOfView(self, attachedToLeftOfView:view, multiplier: multiplier));
         return self;
     }
     
-    func attachLeftToRightOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachLeftToRightOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForLeftOfView(self, attachedToRightOfView:view, offset: offset));
         return self;
     }
     
-    func attachWidth(_ width: CGFloat) -> UIView! {
+    public func attachWidth(_ width: CGFloat) -> UIView! {
         addToConstraints(constraintForWidthOfView(self, width: width));
         return self;
     }
     
-    func attachWidthToWidthOfView(_ view: UIView!, multiplier: CGFloat) -> UIView! {
+    public func attachWidthToWidthOfView(_ view: UIView!, multiplier: CGFloat) -> UIView! {
         addToConstraints(constraintForWidthOfView(self, attachedToWidthOfView:view, multiplier: multiplier));
         return self;
     }
     
-    func attachHeight(_ height: CGFloat) -> UIView! {
+    public func attachHeight(_ height: CGFloat) -> UIView! {
         addToConstraints(constraintForHeightOfView(self, height: height));
         return self;
     }
     
-    func attachHeightToHeightOfView(_ view: UIView!) -> UIView! {
+    public func attachHeightToHeightOfView(_ view: UIView!) -> UIView! {
         addToConstraints(constraintForHeightOfView(self, attachToHeightOfView: view));
         return self;
     }
 
-    func attachCenterXToView(_ view: UIView!) -> UIView! {
+    public func attachCenterXToView(_ view: UIView!) -> UIView! {
         return attachCenterXToView(view, offset: 0.0)
     }
     
-    func attachCenterXToView(_ view: UIView!, offset: CGFloat) -> UIView! {
+    public func attachCenterXToView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForCenterXOfView(self, attachedToCenterXOfView:view, offset: offset))
         return self
     }
     
-    func addConstraintsToView(_ view: UIView!) {
+    public func addConstraintsToView(_ view: UIView!) {
         if let _ = autoLayoutConstraints {
             for constraint in view.constraints {
                 if (constraint.firstItem as! UIView == self) {
