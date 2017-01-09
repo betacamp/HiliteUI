@@ -41,6 +41,18 @@
 		1AFD23701E21B4AC0040B659 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD236F1E21B4AC0040B659 /* Button.swift */; };
 		1AFD23721E21B7200040B659 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23711E21B7200040B659 /* UIView+Util.swift */; };
 		1AFD23741E21B78E0040B659 /* ViewMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23731E21B78E0040B659 /* ViewMacros.swift */; };
+		1AFD23831E21BC2C0040B659 /* HLCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23791E21BC2B0040B659 /* HLCollectionView.swift */; };
+		1AFD23841E21BC2C0040B659 /* HLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD237A1E21BC2C0040B659 /* HLCollectionViewCell.swift */; };
+		1AFD23851E21BC2C0040B659 /* HLLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD237B1E21BC2C0040B659 /* HLLabel.swift */; };
+		1AFD23861E21BC2C0040B659 /* HLProgressControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD237C1E21BC2C0040B659 /* HLProgressControl.swift */; };
+		1AFD23871E21BC2C0040B659 /* HLTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD237D1E21BC2C0040B659 /* HLTableView.swift */; };
+		1AFD23881E21BC2C0040B659 /* HLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD237E1E21BC2C0040B659 /* HLTableViewCell.swift */; };
+		1AFD23891E21BC2C0040B659 /* HLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD237F1E21BC2C0040B659 /* HLTextField.swift */; };
+		1AFD238A1E21BC2C0040B659 /* HLTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23801E21BC2C0040B659 /* HLTextView.swift */; };
+		1AFD238B1E21BC2C0040B659 /* HLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23811E21BC2C0040B659 /* HLView.swift */; };
+		1AFD238C1E21BC2C0040B659 /* HorizontalButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23821E21BC2C0040B659 /* HorizontalButtonGroupView.swift */; };
+		1AFD23961E24195E0040B659 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23951E24195E0040B659 /* ReusableView.swift */; };
+		1AFD23981E241A9B0040B659 /* ButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23971E241A9B0040B659 /* ButtonGroupView.swift */; };
 		232A44C5F6145555918520FA61E75E61 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA570EBAAA31239A6305CFD1BA04587C /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		24B2AFC31898725750519372CFB2350A /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F3696EC637DC2B4E0D9042A916287FDF /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29CB1841D467CCBA6A2A15F55AF9C065 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B3330E9A86A20013F3ABF42BC342A2 /* QuickSelectedTestSuiteBuilder.swift */; };
@@ -261,6 +273,18 @@
 		1AFD236F1E21B4AC0040B659 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		1AFD23711E21B7200040B659 /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
 		1AFD23731E21B78E0040B659 /* ViewMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMacros.swift; sourceTree = "<group>"; };
+		1AFD23791E21BC2B0040B659 /* HLCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLCollectionView.swift; sourceTree = "<group>"; };
+		1AFD237A1E21BC2C0040B659 /* HLCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AFD237B1E21BC2C0040B659 /* HLLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLabel.swift; sourceTree = "<group>"; };
+		1AFD237C1E21BC2C0040B659 /* HLProgressControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgressControl.swift; sourceTree = "<group>"; };
+		1AFD237D1E21BC2C0040B659 /* HLTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLTableView.swift; sourceTree = "<group>"; };
+		1AFD237E1E21BC2C0040B659 /* HLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLTableViewCell.swift; sourceTree = "<group>"; };
+		1AFD237F1E21BC2C0040B659 /* HLTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLTextField.swift; sourceTree = "<group>"; };
+		1AFD23801E21BC2C0040B659 /* HLTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLTextView.swift; sourceTree = "<group>"; };
+		1AFD23811E21BC2C0040B659 /* HLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLView.swift; sourceTree = "<group>"; };
+		1AFD23821E21BC2C0040B659 /* HorizontalButtonGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalButtonGroupView.swift; sourceTree = "<group>"; };
+		1AFD23951E24195E0040B659 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		1AFD23971E241A9B0040B659 /* ButtonGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonGroupView.swift; sourceTree = "<group>"; };
 		1D5AB00D217C687CB83AE825D8B15F32 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		1E91D3D71D09F9D765DA1760C4501113 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		1F48368B8248E6DE7D078A59E62077BD /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
@@ -715,6 +739,18 @@
 		BD18EE8EEB0778C0B42184A9ACA70545 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD23971E241A9B0040B659 /* ButtonGroupView.swift */,
+				1AFD23951E24195E0040B659 /* ReusableView.swift */,
+				1AFD23791E21BC2B0040B659 /* HLCollectionView.swift */,
+				1AFD237A1E21BC2C0040B659 /* HLCollectionViewCell.swift */,
+				1AFD237B1E21BC2C0040B659 /* HLLabel.swift */,
+				1AFD237C1E21BC2C0040B659 /* HLProgressControl.swift */,
+				1AFD237D1E21BC2C0040B659 /* HLTableView.swift */,
+				1AFD237E1E21BC2C0040B659 /* HLTableViewCell.swift */,
+				1AFD237F1E21BC2C0040B659 /* HLTextField.swift */,
+				1AFD23801E21BC2C0040B659 /* HLTextView.swift */,
+				1AFD23811E21BC2C0040B659 /* HLView.swift */,
+				1AFD23821E21BC2C0040B659 /* HorizontalButtonGroupView.swift */,
 				1AFD23731E21B78E0040B659 /* ViewMacros.swift */,
 				1AFD23711E21B7200040B659 /* UIView+Util.swift */,
 				1AFD236F1E21B4AC0040B659 /* Button.swift */,
@@ -1273,24 +1309,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFD23651E217CDB0040B659 /* ImageView.swift in Sources */,
+				1AFD23861E21BC2C0040B659 /* HLProgressControl.swift in Sources */,
 				1AFD236A1E217CDB0040B659 /* PresentsViewControllers.swift in Sources */,
 				1AFD23571E217C9C0040B659 /* HLFont.swift in Sources */,
+				1AFD238A1E21BC2C0040B659 /* HLTextView.swift in Sources */,
+				1AFD23841E21BC2C0040B659 /* HLCollectionViewCell.swift in Sources */,
+				1AFD23891E21BC2C0040B659 /* HLTextField.swift in Sources */,
 				1AFD23551E217C950040B659 /* HLAutoLayout.swift in Sources */,
+				1AFD23831E21BC2C0040B659 /* HLCollectionView.swift in Sources */,
 				1AFD236B1E217CDB0040B659 /* ViewController.swift in Sources */,
 				1AFD236C1E217CDF0040B659 /* ShowsAsLoading.swift in Sources */,
 				1AFD23541E217C920040B659 /* Runtime.swift in Sources */,
 				CB40F1208DE7EC4D08AE81CED34B5DF9 /* HiliteUI-dummy.m in Sources */,
 				1AFD236E1E217F510040B659 /* AssetManager.swift in Sources */,
 				1AFD23691E217CDB0040B659 /* PresentFrom.swift in Sources */,
+				1AFD238C1E21BC2C0040B659 /* HorizontalButtonGroupView.swift in Sources */,
 				1AFD23641E217CDB0040B659 /* HLNavigationController.swift in Sources */,
 				1AFD23671E217CDB0040B659 /* PortraitTabBarController.swift in Sources */,
 				1AFD23561E217C990040B659 /* HLColor.swift in Sources */,
 				1AFD23741E21B78E0040B659 /* ViewMacros.swift in Sources */,
+				1AFD23981E241A9B0040B659 /* ButtonGroupView.swift in Sources */,
+				1AFD23851E21BC2C0040B659 /* HLLabel.swift in Sources */,
+				1AFD23961E24195E0040B659 /* ReusableView.swift in Sources */,
 				1AFD23661E217CDB0040B659 /* PortraitNavigationController.swift in Sources */,
+				1AFD23871E21BC2C0040B659 /* HLTableView.swift in Sources */,
+				1AFD238B1E21BC2C0040B659 /* HLView.swift in Sources */,
 				1AFD23681E217CDB0040B659 /* PortraitViewController.swift in Sources */,
 				1AFD23631E217CDB0040B659 /* BaseViewController.swift in Sources */,
 				1AFD23721E21B7200040B659 /* UIView+Util.swift in Sources */,
 				1AFD23701E21B4AC0040B659 /* Button.swift in Sources */,
+				1AFD23881E21BC2C0040B659 /* HLTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
