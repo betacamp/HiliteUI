@@ -116,17 +116,17 @@ extension UIView {
     }
     
     public func addConstraintsToView(_ view: UIView!) {
-        if let _ = autoLayoutConstraints {
-            for constraint in view.constraints {
-                if (constraint.firstItem as! UIView == self) {
-                    view.removeConstraint(constraint );
-//                    (constraint as! NSLayoutConstraint).active = false
-                }
+        guard let autoLayoutConstraints = autoLayoutConstraints else { return }
+        
+        for constraint in view.constraints {
+            if (constraint.firstItem as! UIView == self) {
+                view.removeConstraint(constraint );
+                //                    (constraint as! NSLayoutConstraint).active = false
             }
-            view.addConstraints(autoLayoutConstraints!)
-            view.setNeedsUpdateConstraints()
-            view.setNeedsLayout()
         }
+        view.addConstraints(autoLayoutConstraints)
+        view.setNeedsUpdateConstraints()
+        view.setNeedsLayout()
     }
     
     fileprivate func addToConstraints(_ constraint: NSLayoutConstraint) {

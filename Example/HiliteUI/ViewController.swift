@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import HiliteUI
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

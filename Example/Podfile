@@ -3,6 +3,8 @@ use_frameworks!
 target 'HiliteUI_Example' do
   pod 'HiliteUI', :path => '../'
 
+  pod 'HiliteCore', '~> 0.1.20-alpha'
+
   target 'HiliteUI_Tests' do
     inherit! :search_paths
 
