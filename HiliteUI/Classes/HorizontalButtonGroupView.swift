@@ -85,7 +85,7 @@ open class HorizontalButtonGroupView: ButtonGroupView {
         }
     }
     
-    override public func enable() {
+    override open func enable() {
         super.enable()
         
         for button in buttons {
@@ -93,7 +93,7 @@ open class HorizontalButtonGroupView: ButtonGroupView {
         }
     }
 
-    override public func disable() {
+    override open func disable() {
         super.disable()
         
         for button in buttons {
