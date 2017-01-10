@@ -4,11 +4,11 @@ import UIKit
 open class ButtonGroupView: UIControl {
     public var showSeparator: Bool = false
     
-    public func enable() {
+    open func enable() {
         self.isEnabled = true
     }
     
-    public func disable() {
+    open func disable() {
         self.isEnabled = false
     }
 }

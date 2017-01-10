@@ -2,47 +2,47 @@ import Foundation
 import UIKit
 
 extension UIView {
-    func cornerRadius(_ radius: CGFloat) {
+    public func cornerRadius(_ radius: CGFloat) {
         self.layer.cornerRadius = radius
     }
     
-    func right() -> CGFloat {
+    public func right() -> CGFloat {
         return rightOf(self)
     }
 
-    func right(_ offset: CGFloat) -> CGFloat {
+    public func right(_ offset: CGFloat) -> CGFloat {
         return rightOf(self) + offset
     }
     
-    func left() -> CGFloat {
+    public func left() -> CGFloat {
         return leftOf(self)
     }
 
-    func left(_ offset: CGFloat) -> CGFloat {
+    public func left(_ offset: CGFloat) -> CGFloat {
         return leftOf(self) + offset
     }
     
-    func top() -> CGFloat {
+    public func top() -> CGFloat {
         return topOf(self)
     }
 
-    func top(_ offset: CGFloat) -> CGFloat {
+    public func top(_ offset: CGFloat) -> CGFloat {
         return topOf(self) + offset
     }
     
-    func bottom() -> CGFloat {
+    public func bottom() -> CGFloat {
         return bottomOf(self)
     }
 
-    func bottom(_ offset: CGFloat) -> CGFloat {
+    public func bottom(_ offset: CGFloat) -> CGFloat {
         return bottomOf(self) + offset
     }
     
-    func width() -> CGFloat {
+    public func width() -> CGFloat {
         return self.bounds.size.width
     }
 
-    func height() -> CGFloat {
+    public func height() -> CGFloat {
         return self.bounds.size.height
     }
 }
