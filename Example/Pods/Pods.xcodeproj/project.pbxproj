@@ -33,7 +33,6 @@
 		1AFD23661E217CDB0040B659 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD235D1E217CDB0040B659 /* PortraitNavigationController.swift */; };
 		1AFD23671E217CDB0040B659 /* PortraitTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD235E1E217CDB0040B659 /* PortraitTabBarController.swift */; };
 		1AFD23681E217CDB0040B659 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD235F1E217CDB0040B659 /* PortraitViewController.swift */; };
-		1AFD23691E217CDB0040B659 /* PresentFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23601E217CDB0040B659 /* PresentFrom.swift */; };
 		1AFD236A1E217CDB0040B659 /* PresentsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23611E217CDB0040B659 /* PresentsViewControllers.swift */; };
 		1AFD236B1E217CDB0040B659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23621E217CDB0040B659 /* ViewController.swift */; };
 		1AFD236C1E217CDF0040B659 /* ShowsAsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23581E217CBB0040B659 /* ShowsAsLoading.swift */; };
@@ -268,7 +267,6 @@
 		1AFD235D1E217CDB0040B659 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		1AFD235E1E217CDB0040B659 /* PortraitTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitTabBarController.swift; sourceTree = "<group>"; };
 		1AFD235F1E217CDB0040B659 /* PortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
-		1AFD23601E217CDB0040B659 /* PresentFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFrom.swift; sourceTree = "<group>"; };
 		1AFD23611E217CDB0040B659 /* PresentsViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentsViewControllers.swift; sourceTree = "<group>"; };
 		1AFD23621E217CDB0040B659 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AFD236D1E217F510040B659 /* AssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
@@ -766,7 +764,6 @@
 				1AFD235D1E217CDB0040B659 /* PortraitNavigationController.swift */,
 				1AFD235E1E217CDB0040B659 /* PortraitTabBarController.swift */,
 				1AFD235F1E217CDB0040B659 /* PortraitViewController.swift */,
-				1AFD23601E217CDB0040B659 /* PresentFrom.swift */,
 				1AFD23611E217CDB0040B659 /* PresentsViewControllers.swift */,
 				1AFD23621E217CDB0040B659 /* ViewController.swift */,
 				1AFD23581E217CBB0040B659 /* ShowsAsLoading.swift */,
@@ -1328,7 +1325,6 @@
 				1AFD23541E217C920040B659 /* Runtime.swift in Sources */,
 				CB40F1208DE7EC4D08AE81CED34B5DF9 /* HiliteUI-dummy.m in Sources */,
 				1AFD236E1E217F510040B659 /* AssetManager.swift in Sources */,
-				1AFD23691E217CDB0040B659 /* PresentFrom.swift in Sources */,
 				1AFD238C1E21BC2C0040B659 /* HorizontalButtonGroupView.swift in Sources */,
 				1AFD23641E217CDB0040B659 /* HLNavigationController.swift in Sources */,
 				1AFD23671E217CDB0040B659 /* PortraitTabBarController.swift in Sources */,

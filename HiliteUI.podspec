@@ -40,5 +40,5 @@ Provides UI classes for HiliteSDK
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency "HiliteCore", "~> 0.1.17-alpha"
+  s.dependency "HiliteCore", "~> 0.1.20-alpha"
 end
