@@ -1,15 +1,18 @@
 import Foundation
 import UIKit
 
-let AUTO_LAYOUT_CONSTRAINT_KEY:NSString = "kAutoLayoutConstraintKey"
+var AUTO_LAYOUT_CONSTRAINT_KEY:NSString = "kAutoLayoutConstraintKey"
 
 extension UIView {
     var autoLayoutConstraints: Array<NSLayoutConstraint>? {
         get {
-            return getAssociatedObject(object: self, key: AUTO_LAYOUT_CONSTRAINT_KEY) as? Array<NSLayoutConstraint>
+            
+            let obj = getAssociatedObject(object: self, key: &AUTO_LAYOUT_CONSTRAINT_KEY)
+            
+            return obj as? Array<NSLayoutConstraint>
         }
         set(newAutoLayoutConstraints) {
-            setAssociatedObject(object: self, key: AUTO_LAYOUT_CONSTRAINT_KEY, value: newAutoLayoutConstraints as NSObject?);
+            setAssociatedObject(object: self, key: &AUTO_LAYOUT_CONSTRAINT_KEY, value: newAutoLayoutConstraints as! NSObject)
         }
     }
     
@@ -130,10 +133,10 @@ extension UIView {
     }
     
     fileprivate func addToConstraints(_ constraint: NSLayoutConstraint) {
-        if (self.autoLayoutConstraints == nil) {
-            autoLayoutConstraints = Array<NSLayoutConstraint>()
-        }
-        autoLayoutConstraints?.append(constraint);
+        
+        autoLayoutConstraints = autoLayoutConstraints ?? Array<NSLayoutConstraint>()
+    
+        autoLayoutConstraints!.append(constraint)
     }
     
     fileprivate func constraintForBottomOfView(_ view: UIView!, attachedToCenterYOfView: UIView!, offset: CGFloat) -> NSLayoutConstraint {
