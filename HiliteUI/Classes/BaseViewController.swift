@@ -3,6 +3,7 @@ import UIKit
 
 open class BaseViewController: UIViewController {
     open var backgroundImageView:ImageView!
+    public var centerView:HLView!
     
     override open var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -20,7 +21,19 @@ open class BaseViewController: UIViewController {
         backgroundImageView.contentMode = .scaleAspectFill
         self.view.addSubview(backgroundImageView)
         
+        centerView = HLView(frame: .zero)
+        centerView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(centerView)
+        
+        /* CONSTRAINTS */
+        
         backgroundImageView.attachToBoundsOfView(self.view).addConstraintsToView(self.view)
+        centerView.attachWidth(1)
+        .attachHeight(1)
+        .attachCenterXToView(view)
+        .attachCenterYToCenterYOfView(view, offset: 0)
+        .addConstraintsToView(view)
+        
     }
     
     open func subscribeToKeyboardEvents() {

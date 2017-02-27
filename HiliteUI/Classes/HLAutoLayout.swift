@@ -48,7 +48,12 @@ extension UIView {
         addToConstraints(constraintForTopOfView(self, attachedToTopOfView:view, offset: offset));
         return self
     }
-    
+
+    public func attachTopToTopOfView(_ view: UIView!, multiplier: CGFloat) -> UIView! {
+        addToConstraints(constraintForTopOfView(self, attachedToTopOfView:view, multiplier: multiplier));
+        return self
+    }
+
     public func attachTopToBottomOfView(_ view: UIView!, offset: CGFloat) -> UIView! {
         addToConstraints(constraintForTopOfView(self, attachedToBottomOfView:view, offset: offset));
         return self;
@@ -153,6 +158,10 @@ extension UIView {
     
     fileprivate func constraintForTopOfView(_ topOfView: UIView!, attachedToTopOfView: UIView!, offset: CGFloat) -> NSLayoutConstraint {
         return NSLayoutConstraint(item: topOfView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: attachedToTopOfView, attribute: NSLayoutAttribute.top, multiplier: 1.0, constant: offset);
+    }
+
+    fileprivate func constraintForTopOfView(_ topOfView: UIView!, attachedToTopOfView: UIView!, multiplier: CGFloat) -> NSLayoutConstraint {
+        return NSLayoutConstraint(item: topOfView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: attachedToTopOfView, attribute: NSLayoutAttribute.top, multiplier: multiplier, constant: 0);
     }
 
     fileprivate func constraintForTopOfView(_ topOfView: UIView!, attachedToBottomOfView: UIView!, offset: CGFloat) -> NSLayoutConstraint {

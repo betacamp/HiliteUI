@@ -12,6 +12,7 @@ import HiliteUI
 class ViewController: BaseViewController {
 
     var button: Button!
+    var button2: Button!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,17 @@ class ViewController: BaseViewController {
             .attachWidth(200)
             .attachHeight(50)
             .addConstraintsToView(view)
+
+        button2 = Button.yellowButton()
+        button2.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(button2)
+        
+        button2.attachTopToTopOfView(centerView, multiplier: 0.25)
+            .attachCenterXToView(view)
+            .attachWidth(200)
+            .attachHeight(50)
+            .addConstraintsToView(view)
+
         
     }
 
