@@ -2,13 +2,13 @@ import Foundation
 import UIKit
 
 public struct AssetConfig {
-    static var closeButtonImageName = "icon-close"
-    static var nextButtonImageName = "icon-next"
-    static var redoButtonImageName = "icon-redo"
-    static var reviewApproveButtonImageName = "icon-review-approve"
-    static var reviewBackButtonImageName = "icon-back"
-    static var toggleCameraImageName = "icon-toggle-camera"
-    static var importFromCameraRollImageName = "icon-import-from-camera-roll"
+    public static var closeButtonImageName = "icon-close"
+    public static var nextButtonImageName = "icon-next"
+    public static var redoButtonImageName = "icon-redo"
+    public static var reviewApproveButtonImageName = "icon-review-approve"
+    public static var reviewBackButtonImageName = "icon-back"
+    public static var toggleCameraImageName = "icon-toggle-camera"
+    public static var importFromCameraRollImageName = "icon-import-from-camera-roll"
 }
 
 open class AssetManager {
