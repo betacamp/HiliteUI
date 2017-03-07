@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiliteUI'
-  s.version          = '0.1.16-alpha'
+  s.version          = '0.1.17-alpha'
   s.summary          = 'HiliteSDK UI module.'
 
 # This description is used to generate tags and improve search results.
@@ -40,5 +40,5 @@ Provides UI classes for HiliteSDK
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency "HiliteCore", "~> 0.1.20-alpha"
+  s.dependency "HiliteCore", "~> 0.1.22-alpha"
 end
