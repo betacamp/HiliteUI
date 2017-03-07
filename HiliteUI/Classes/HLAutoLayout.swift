@@ -4,7 +4,7 @@ import UIKit
 var AUTO_LAYOUT_CONSTRAINT_KEY:NSString = "kAutoLayoutConstraintKey"
 
 extension UIView {
-    var autoLayoutConstraints: Array<NSLayoutConstraint>? {
+    public var autoLayoutConstraints: Array<NSLayoutConstraint>? {
         get {
             
             let obj = getAssociatedObject(object: self, key: &AUTO_LAYOUT_CONSTRAINT_KEY)
