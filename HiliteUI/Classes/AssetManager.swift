@@ -17,7 +17,7 @@ open class AssetManager {
     }
     
     open class func reviewBackButtonImage() -> UIImage? {
-        return UIImage(named: AssetConfig.reviewApproveButtonImageName)
+        return UIImage(named: AssetConfig.reviewBackButtonImageName)
     }
     open class func reviewApproveButtonImage() -> UIImage? {
         return UIImage(named: AssetConfig.reviewApproveButtonImageName)
